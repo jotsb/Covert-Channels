@@ -1,0 +1,28 @@
+//	Covert_Client.c
+Main Function
+{
+	check if it is running with root privilages
+	
+	valigate user arguments
+
+	open the file specified for reading in binary format
+	
+	Loop until End of File
+	{
+		read a character
+		
+		initialize custom IP header
+
+		initialize custom TCP header
+
+		encode the character into the user specified IP or TCP header field
+
+		create IP and TCP checksums and initialize the header checksum fields
+
+		create a raw socket
+
+		send the packet
+
+		close the socket
+	}
+}

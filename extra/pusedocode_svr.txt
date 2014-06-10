@@ -1,0 +1,24 @@
+// 	Covert_Server.c
+Main Function
+{
+	Check if the application has root privilages
+
+	validate user command line arguments
+
+	open a file with user specified output name for writing in binary format
+
+	LOOP INDEFINITELY
+	{
+		create a raw socket
+
+		read for incoming packets
+
+		verify the destination port and the source ip of the packet
+
+		decode the data from specified IP or TCP header field
+
+		output it to the user specified output file
+
+		close the socket
+	}
+}
